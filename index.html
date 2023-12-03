@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+		.wrap {
+            text-align: center;
+			margin: 10px auto;
+            position: relative;
+		}
+
+        .off_image {
+            visibility:hidden;
+            position: absolute;
+            transform: translate(-100%);
+        }
+        .text {
+            text-align: center;
+            position: absolute;
+            top: 36%;
+            left: 50%;
+            transform: translate( -50%, -50% );
+            font-size: 50px;
+        }
+
+        .time {
+            text-align: center;
+            position: absolute;
+            top: 16%;
+            left: 50%;
+            transform: translate( -50%, -50% );
+            font-size: 35px;
+        }
+    </style>
+    <script type="text/javascript" src="script/script.js"></script>
+    <meta name="viewport" content="user-scalable=no" />
+    <title>web_test</title>
+</head>
+<body>
+    <div class="wrap">
+        <img class="main_image" id="on" border="0" height="1000">
+        <img class="off_image" id="off" border="0" height="1000">
+        <div class="time" id="time">00 : 30</div>
+        <div class="text" id="count">0</div>
+    </div>  
+</body>
+</html>
+
+
